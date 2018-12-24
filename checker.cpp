@@ -15,13 +15,13 @@ void main()
 {
 	//1052003
 	readboard(A);
-	showBoard();
+	showBoard();//顯示棋盤
 	go();
 }
 void readboard(int A[N][N])
 {
 	ifstream file;
-	file.open("board.txt");
+	file.open("board.txt");//開啟文字檔
 	int i,j;
 	for(i=0;i<N;i++)
 		for(j=0;j<N;j++)
